@@ -33,8 +33,8 @@ The APRS leverages novel machine learning techniques, including Long Short-Term 
 
 To run the Conservatives APRS, follow these steps: 
 1. Install dependencies by running `scripts/install_dependencies.py`.
-2. 2. Start the application by executing `scripts/launch_app.py`.
-   3. 3. Access the application through the provided URL or local host. Ensure that you have the necessary permissions and resources to execute the scripts and deploy the application. 
+2. Start the application by executing `scripts/launch_app.py`.
+3. Access the application through the provided URL or local host. Ensure that you have the necessary permissions and resources to execute the scripts and deploy the application. 
 
 ### Potential Use Cases: - 
 
