@@ -16,10 +16,8 @@ urllib3
 glob
 ast
 torch
-numpy
 statsmodels
 scikit-learn
-keras
 rasterio
 georasters
 xml.etree.ElementTree
