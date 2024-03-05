@@ -20,13 +20,12 @@ from sklearn.preprocessing import MinMaxScaler
 from datetime import datetime, timedelta
 from hyperopt import hp, fmin, tpe, Trials, STATUS_OK
 
-pip install keras-tuner
 
 import os
 import numpy as np
 import pandas as pd
 
-file_path = 'water_merged.csv'
+file_path = '/content/drive/MyDrive/Conservatives-Official/Water_Quality/water_merged.csv'
 
 df1 = pd.read_csv(file_path)
 
@@ -222,4 +221,4 @@ max_prediction = results_df['prediction'].max()
 print(f"Minimum prediction value: {min_prediction}")
 print(f"Maximum prediction value: {max_prediction}")
 
-results_df.to_csv('LStm_water_pred.csv', index=False)
+results_df.to_csv('/content/drive/MyDrive/Conservatives-Official/Water_Quality/Lstm_water_pred.csv', index=False)

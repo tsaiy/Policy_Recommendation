@@ -9,25 +9,14 @@ import os
 import pandas as pd
 
 
-# Set the working directory
-os.chdir('C:/Users/syona/.spyder-py3/codedata')
-
-# Print the current working directory to confirm the change
-print("Current Working Directory:", os.getcwd())
 
 
 
-# file_path = 'C:/Users/syona/.spyder-py3/codedata/download1'  # Update this to the path of your file
 
-# columns = ['agency_cd', 'site_no', 'datetime', 'tz_cd', '74170_00060', '74170_00060_cd']
-
-# df = pd.read_csv(file_path, sep='\t', skiprows=range(1, 202), usecols=columns)
-
-# print(df.head())
 
 
 # Define the path to your file, including the extension if it has one
-file_path = 'C:/Users/syona/.spyder-py3/codedata/uv'  # Make sure the extension is correct
+file_path = '/content/drive/MyDrive/Conservatives-Official/Water_Quality/uv'  # Make sure the extension is correct
 
 # Define the column names based on the header of your data
 columns = ['agency_cd', 'site_no', 'datetime', 'tz_cd', '92327_00060', '92327_00060_cd']
@@ -89,7 +78,7 @@ print(aggregated_data1.head(12))
 
 print(aggregated_data1.head(20))
 
-df2 = pd.read_csv("county_mapping.csv")
+df2 = pd.read_csv("/content/drive/MyDrive/Conservatives-Official/Water_Quality/county_mapping.csv")
 
 df2["site_number"] = df2["site_number"].astype(str)
 
@@ -111,6 +100,6 @@ joined_df['date'] = pd.to_datetime(joined_df['date']).dt.strftime("%Y-%m-%d")
 print(joined_df.head(10))
 
 
-joined_df.to_csv('water_merged.csv', index=False)
+joined_df.to_csv('/content/drive/MyDrive/Conservatives-Official/Water_Quality/water_merged.csv', index=False)
 
 

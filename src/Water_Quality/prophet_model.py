@@ -18,7 +18,7 @@ from sklearn.metrics import mean_absolute_error, mean_squared_error
 import pandas as pd
 import numpy as np
 
-file_path = 'water_merged.csv'
+file_path = '/content/drive/MyDrive/Conservatives-Official/Water_Quality/water_merged.csv'
 
 df = pd.read_csv(file_path)
 
@@ -189,4 +189,4 @@ final_df = final_forecasts[['ds', 'site', 'yhat', 'yhat_lower', 'yhat_upper']]
 # Display the first few rows of the final DataFrame
 print(final_df.head())
 
-final_df.to_csv('fbprophet_pred.csv', index=False)
+final_df.to_csv('/content/drive/MyDrive/Conservatives-Official/Water_Quality/fbprophet_pred.csv', index=False)
