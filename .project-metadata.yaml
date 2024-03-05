@@ -17,11 +17,16 @@ tasks:
     cpu: 2
     memory: 4
 
+  - type: run_session
+    name: Train model
+    script: scripts/run_scripts.py
+    kernel: python3
+    cpu: 2
+    memory: 8
+
   - type: start_application
     name: Start application
     script: scripts/launch_app.py
     kernel: python3
     cpu: 2
     memory: 8
-
-

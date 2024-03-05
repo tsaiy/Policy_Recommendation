@@ -1,5 +1,7 @@
 import streamlit as st
 import plotly.graph_objects as go
+import subprocess
+import time
 
 ### we write a function to read a txt file and it's content will be used to populate page with certain information. 
 def read_file(file_path):
@@ -41,7 +43,7 @@ def dashboard_page():
         st.write("North Dakota")
         st.markdown(read_file(file_path=file_path))
     st.markdown("---")
-    if st.sidebar.button('Update Model'):
+    if st.sidebar.button('Retrain'):
         st.session_state.page = 'authentication'
 
 ## define creat map function
@@ -79,18 +81,24 @@ def authentication_page():
             if authenticate(username, password):
                 st.success("Logged in as {}".format(username))
                 # Run the method for update in the background
-                update_method()
+                generate_method()
+                #time.sleep(10)
                 st.session_state.page = 'dashboard'
             else:
                 st.error("Invalid credentials")
 
     with col2:
-        if st.button("Cancel"):
+        if st.button("Back"):
             st.session_state.page = 'dashboard'
 
 # Method to update the model in the background
-def update_method():
-    st.write("Updating model...")
+def generate_method():
+    st.write("Generating new output...")
+    try:
+        subprocess.run(['python3', 'scripts/llm_chain_main.py'], check=True)
+        st.write("Output generated successfully.")
+    except subprocess.CalledProcessError as e:
+        st.error(f"Error generating policy: {e}")
 
 # Run the app
 def main():
