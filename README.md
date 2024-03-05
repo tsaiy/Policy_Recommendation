@@ -6,16 +6,35 @@ Traditional agricultural policies are often reactive, responding to market shift
 
 Through the development and implementation of such a system, this paper seeks to contribute to the evolution of agricultural policies, transforming them from reactive measures to proactive strategies that anticipate and adapt to the ever-changing dynamics of the agricultural sector. The successful deployment of an APRS grounded in demand-supply forecasts will not only enhance the efficiency and resilience of agricultural systems but also promote sustainable practices and contribute to the overall growth and stability of the agricultural economy. Traditional agricultural policies are often reactive and insufficiently responsive to market shifts and environmental changes. There is a critical need for a comprehensive APRS that anticipates trends and assists policymakers, farmers, and other stakeholders in shaping proactive strategies aligned with the evolving agricultural landscape. 
 
-### Objectives 
+### Potential Use Cases: 
 
-Potential Use Cases: 1. Government and Policy Making: Government agencies can formulate evidence-based policies with targeted subsidy allocation. 2. Supply Chain Management: Agribusinesses optimize distribution networks and inventory management for efficient supply chains. 3. Financial Institutions: Financial institutions use APRS insights for assessing investment viability and making informed lending decisions. 4.International Development Organizations: Organizations enhance food security programs by using APRS insights for targeted interventions. - Develop an innovative APRS grounded in demand-supply forecasts. - Empower stakeholders with real-time insights for policy formulation and implementation. - Foster sustainable agricultural practices and promote economic growth and stability. ### Novel Machine Learning Techniques The APRS leverages novel machine learning techniques, including Long Short-Term Memory (LSTM) models and LangChain algorithms, to analyze historical data, predict future trends, and recommend policy interventions. These techniques enable the system to adapt to dynamic market conditions and provide actionable insights in real-time. ### Project Structure The project is organized into the following components: 1. **Scripts**: Contains Python scripts for various tasks, including data preprocessing, model training, and application deployment. 
+1. Government and Policy Making: Government agencies can formulate evidence-based policies with targeted subsidy allocation.
+2. Supply Chain Management: Agribusinesses optimize distribution networks and inventory management for efficient supply chains.
+3. Financial Institutions: Financial institutions use APRS insights for assessing investment viability and making informed lending decisions.
+4. International Development Organizations: Organizations enhance food security programs by using APRS insights for targeted interventions.
+
+
+- Develop an innovative APRS grounded in demand-supply forecasts.
+- Empower stakeholders with real-time insights for policy formulation and implementation.
+- Foster sustainable agricultural practices and promote economic growth and stability. 
+
+### Novel Machine Learning Techniques 
+
+The APRS leverages novel machine learning techniques, including Long Short-Term Memory (LSTM) models and LangChain algorithms, to analyze historical data, predict future trends, and recommend policy interventions. These techniques enable the system to adapt to dynamic market conditions and provide actionable insights in real-time. 
+
+### Project Structure The project is organized into the following components:
+
+1. **Scripts**: Contains Python scripts for various tasks, including data preprocessing, model training, and application deployment. 
 2. **Data**: Stores datasets used for training and evaluation. 
 3. **Models**: Stores trained machine learning models and associated files. 
 4. **Documentation**: Contains project documentation, including README files and technical specifications. 
 
 ## Instructions to Run 
 
-To run the Conservatives APRS, follow these steps: 1. Install dependencies by running `scripts/install_dependencies.py`. 2. Start the application by executing `scripts/launch_app.py`. 3. Access the application through the provided URL or local host. Ensure that you have the necessary permissions and resources to execute the scripts and deploy the application. 
+To run the Conservatives APRS, follow these steps: 
+1. Install dependencies by running `scripts/install_dependencies.py`.
+2. 2. Start the application by executing `scripts/launch_app.py`.
+   3. 3. Access the application through the provided URL or local host. Ensure that you have the necessary permissions and resources to execute the scripts and deploy the application. 
 
 ### Potential Use Cases: - 
 
@@ -25,7 +44,3 @@ Government and Policy Making: Government agencies can formulate evidence-based p
 - International Development Organizations: Organizations enhance food security programs by using APRS insights for targeted interventions. 
 
 Dataset Google Drive [Link](https://drive.google.com/drive/folders/1Aysc8DK8vkETSP-JF0DpmwONkS7wpuRX?usp=sharing) 
-
-## Conclusion 
-
-The Conservatives APRS represents a paradigm shift in agricultural policy-making, enabling stakeholders to make data-driven decisions that promote economic growth, environmental sustainability, and food security. By harnessing the power of machine learning and data analytics, the APRS empowers policymakers, farmers, and agribusinesses to navigate the complexities of the modern agricultural landscape with confidence and foresight
