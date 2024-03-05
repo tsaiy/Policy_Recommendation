@@ -38,12 +38,6 @@ To run the Conservatives APRS, follow these steps:
 2. Start the application by executing `scripts/launch_app.py`.
 3. Access the application through the provided URL or local host. Ensure that you have the necessary permissions and resources to execute the scripts and deploy the application. 
 
-### Potential Use Cases: - 
-
-Government and Policy Making: Government agencies can formulate evidence-based policies with targeted subsidy allocation. 
-- Supply Chain Management: Agribusinesses optimize distribution networks and inventory management for efficient supply chains. 
-- Financial Institutions: Financial institutions use APRS insights for assessing investment viability and making informed lending decisions.
-- International Development Organizations: Organizations enhance food security programs by using APRS insights for targeted interventions. 
 
 Dataset Google Drive [Link](https://drive.google.com/drive/folders/1Aysc8DK8vkETSP-JF0DpmwONkS7wpuRX?usp=sharing) 
 
