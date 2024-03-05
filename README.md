@@ -6,17 +6,19 @@ Traditional agricultural policies are often reactive, responding to market shift
 
 Through the development and implementation of such a system, this paper seeks to contribute to the evolution of agricultural policies, transforming them from reactive measures to proactive strategies that anticipate and adapt to the ever-changing dynamics of the agricultural sector. The successful deployment of an APRS grounded in demand-supply forecasts will not only enhance the efficiency and resilience of agricultural systems but also promote sustainable practices and contribute to the overall growth and stability of the agricultural economy. Traditional agricultural policies are often reactive and insufficiently responsive to market shifts and environmental changes. There is a critical need for a comprehensive APRS that anticipates trends and assists policymakers, farmers, and other stakeholders in shaping proactive strategies aligned with the evolving agricultural landscape. 
 
+To put it simply, the objective is to:
+
+- Develop an innovative APRS grounded in demand-supply forecasts.
+- Empower stakeholders with real-time insights for policy formulation and implementation.
+- Foster sustainable agricultural practices and promote economic growth and stability. 
+
+
 ### Potential Use Cases: 
 
 1. Government and Policy Making: Government agencies can formulate evidence-based policies with targeted subsidy allocation.
 2. Supply Chain Management: Agribusinesses optimize distribution networks and inventory management for efficient supply chains.
 3. Financial Institutions: Financial institutions use APRS insights for assessing investment viability and making informed lending decisions.
 4. International Development Organizations: Organizations enhance food security programs by using APRS insights for targeted interventions.
-
-
-- Develop an innovative APRS grounded in demand-supply forecasts.
-- Empower stakeholders with real-time insights for policy formulation and implementation.
-- Foster sustainable agricultural practices and promote economic growth and stability. 
 
 ### Novel Machine Learning Techniques 
 
