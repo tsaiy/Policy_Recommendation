@@ -22,6 +22,8 @@ Traditional agricultural policies are often reactive, responding to market shift
 
 The APRS leverages novel machine learning techniques, including Long Short-Term Memory (LSTM) and several decision trees to perform univariate and mulivariate forecasting, to analyze historical data, predict future trends, and recommend policy interventions. These models are then orchestrated on a langchain environment to create a funnel mechanism that leads to policy generation for the given input. 
 
+![Architecture-ASPR](https://github.com/Naveen-Nanda/Policy_Recommendation/assets/29003849/06fdde8d-ff75-4244-9913-7d96fc060c91)
+
 ### Project Structure The project is organized into the following components:
 
 1. **Scripts**: Contains Python scripts for various tasks, including data preprocessing, model training, and application deployment. 
