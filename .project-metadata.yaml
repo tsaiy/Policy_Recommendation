@@ -12,7 +12,7 @@ runtimes:
 tasks:
   - type: run_session
     name: Install dependencies
-    script: scripts/install_depedencies.py
+    script: scripts/install_dependencies.py
     kernel: python3
     cpu: 2
     memory: 4
